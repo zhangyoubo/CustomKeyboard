@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C849DB5C1CBCC2C6003BB8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C849DB5B1CBCC2C6003BB8D2 /* main.m */; };
+		C849DB5F1CBCC2C6003BB8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C849DB5E1CBCC2C6003BB8D2 /* AppDelegate.m */; };
+		C849DB621CBCC2C6003BB8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C849DB611CBCC2C6003BB8D2 /* ViewController.m */; };
+		C849DB671CBCC2C6003BB8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C849DB661CBCC2C6003BB8D2 /* Assets.xcassets */; };
+		C849DB7B1CBCC2F7003BB8D2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C849DB721CBCC2F7003BB8D2 /* back.png */; };
+		C849DB7C1CBCC2F7003BB8D2 /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C849DB741CBCC2F7003BB8D2 /* KeyBoardView.m */; };
+		C849DB7D1CBCC2F7003BB8D2 /* KeyBoradTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C849DB761CBCC2F7003BB8D2 /* KeyBoradTool.m */; };
+		C849DB7E1CBCC2F7003BB8D2 /* LetterKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C849DB781CBCC2F7003BB8D2 /* LetterKeyBoardView.m */; };
+		C849DB7F1CBCC2F7003BB8D2 /* NumberKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C849DB7A1CBCC2F7003BB8D2 /* NumberKeyBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C849DB571CBCC2C6003BB8D2 /* CustomKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C849DB5B1CBCC2C6003BB8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C849DB5D1CBCC2C6003BB8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C849DB5E1CBCC2C6003BB8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C849DB601CBCC2C6003BB8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C849DB611CBCC2C6003BB8D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C849DB661CBCC2C6003BB8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C849DB6B1CBCC2C6003BB8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C849DB721CBCC2F7003BB8D2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		C849DB731CBCC2F7003BB8D2 /* KeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardView.h; sourceTree = "<group>"; };
+		C849DB741CBCC2F7003BB8D2 /* KeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardView.m; sourceTree = "<group>"; };
+		C849DB751CBCC2F7003BB8D2 /* KeyBoradTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoradTool.h; sourceTree = "<group>"; };
+		C849DB761CBCC2F7003BB8D2 /* KeyBoradTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoradTool.m; sourceTree = "<group>"; };
+		C849DB771CBCC2F7003BB8D2 /* LetterKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterKeyBoardView.h; sourceTree = "<group>"; };
+		C849DB781CBCC2F7003BB8D2 /* LetterKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterKeyBoardView.m; sourceTree = "<group>"; };
+		C849DB791CBCC2F7003BB8D2 /* NumberKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberKeyBoardView.h; sourceTree = "<group>"; };
+		C849DB7A1CBCC2F7003BB8D2 /* NumberKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberKeyBoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C849DB541CBCC2C6003BB8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C849DB4E1CBCC2C6003BB8D2 = {
+			isa = PBXGroup;
+			children = (
+				C849DB591CBCC2C6003BB8D2 /* CustomKeyboardDemo */,
+				C849DB581CBCC2C6003BB8D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C849DB581CBCC2C6003BB8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C849DB571CBCC2C6003BB8D2 /* CustomKeyboardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C849DB591CBCC2C6003BB8D2 /* CustomKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C849DB711CBCC2F7003BB8D2 /* KeyBoard */,
+				C849DB5D1CBCC2C6003BB8D2 /* AppDelegate.h */,
+				C849DB5E1CBCC2C6003BB8D2 /* AppDelegate.m */,
+				C849DB601CBCC2C6003BB8D2 /* ViewController.h */,
+				C849DB611CBCC2C6003BB8D2 /* ViewController.m */,
+				C849DB661CBCC2C6003BB8D2 /* Assets.xcassets */,
+				C849DB6B1CBCC2C6003BB8D2 /* Info.plist */,
+				C849DB5A1CBCC2C6003BB8D2 /* Supporting Files */,
+			);
+			path = CustomKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		C849DB5A1CBCC2C6003BB8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C849DB5B1CBCC2C6003BB8D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C849DB711CBCC2F7003BB8D2 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C849DB721CBCC2F7003BB8D2 /* back.png */,
+				C849DB731CBCC2F7003BB8D2 /* KeyBoardView.h */,
+				C849DB741CBCC2F7003BB8D2 /* KeyBoardView.m */,
+				C849DB751CBCC2F7003BB8D2 /* KeyBoradTool.h */,
+				C849DB761CBCC2F7003BB8D2 /* KeyBoradTool.m */,
+				C849DB771CBCC2F7003BB8D2 /* LetterKeyBoardView.h */,
+				C849DB781CBCC2F7003BB8D2 /* LetterKeyBoardView.m */,
+				C849DB791CBCC2F7003BB8D2 /* NumberKeyBoardView.h */,
+				C849DB7A1CBCC2F7003BB8D2 /* NumberKeyBoardView.m */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C849DB561CBCC2C6003BB8D2 /* CustomKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C849DB6E1CBCC2C6003BB8D2 /* Build configuration list for PBXNativeTarget "CustomKeyboardDemo" */;
+			buildPhases = (
+				C849DB531CBCC2C6003BB8D2 /* Sources */,
+				C849DB541CBCC2C6003BB8D2 /* Frameworks */,
+				C849DB551CBCC2C6003BB8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyboardDemo;
+			productName = CustomKeyboardDemo;
+			productReference = C849DB571CBCC2C6003BB8D2 /* CustomKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C849DB4F1CBCC2C6003BB8D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lihongcheng;
+				TargetAttributes = {
+					C849DB561CBCC2C6003BB8D2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C849DB521CBCC2C6003BB8D2 /* Build configuration list for PBXProject "CustomKeyboardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C849DB4E1CBCC2C6003BB8D2;
+			productRefGroup = C849DB581CBCC2C6003BB8D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C849DB561CBCC2C6003BB8D2 /* CustomKeyboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C849DB551CBCC2C6003BB8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C849DB7B1CBCC2F7003BB8D2 /* back.png in Resources */,
+				C849DB671CBCC2C6003BB8D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C849DB531CBCC2C6003BB8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C849DB7F1CBCC2F7003BB8D2 /* NumberKeyBoardView.m in Sources */,
+				C849DB7D1CBCC2F7003BB8D2 /* KeyBoradTool.m in Sources */,
+				C849DB7E1CBCC2F7003BB8D2 /* LetterKeyBoardView.m in Sources */,
+				C849DB621CBCC2C6003BB8D2 /* ViewController.m in Sources */,
+				C849DB7C1CBCC2F7003BB8D2 /* KeyBoardView.m in Sources */,
+				C849DB5F1CBCC2C6003BB8D2 /* AppDelegate.m in Sources */,
+				C849DB5C1CBCC2C6003BB8D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C849DB6C1CBCC2C6003BB8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C849DB6D1CBCC2C6003BB8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C849DB6F1CBCC2C6003BB8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.CustomKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C849DB701CBCC2C6003BB8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.CustomKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C849DB521CBCC2C6003BB8D2 /* Build configuration list for PBXProject "CustomKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C849DB6C1CBCC2C6003BB8D2 /* Debug */,
+				C849DB6D1CBCC2C6003BB8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C849DB6E1CBCC2C6003BB8D2 /* Build configuration list for PBXNativeTarget "CustomKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C849DB6F1CBCC2C6003BB8D2 /* Debug */,
+				C849DB701CBCC2C6003BB8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C849DB4F1CBCC2C6003BB8D2 /* Project object */;
+}
